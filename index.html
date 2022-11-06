@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .navbar-nav{
+    position:relative;
+    left:900px;
+    }
+     .navbar-brand{
+       position:relative;
+       left:120px;
+     }
+    .image1{
+      height:400px;
+      width:750px;
+    }
+    .right{
+      position:relative;
+      left:200px;
+    }
+    #closing{
+      padding-top:100px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+ <div class="container-fluid">
+   <a class="navbar-brand" href="#"><h1>W.</h1></a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav">
+       <li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="#">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">New</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Popular</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Trending</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" href="#">Categories</a>
+       </li>
+     </ul>
+   </div>
+ </div>
+</nav>
+   <section id="Welcome">
+     <div class="container">
+       <div class="row">
+
+       <div class="left col-lg-6">
+       <div class="row">
+         <div class="col-lg-12 col-sm-12">
+            <img src="assets/images/image-web-3-desktop.jpg" class="image1" alt="temp">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-lg-5 col-sm-12" >
+         <h1>The Bright Future of Web 3.0?</h1>
+       </div>
+       <div class="col-lg-7 col-sm-12">
+         <p  >
+           We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+           But is it really fulfilling its promise?
+         </p>
+         <button type="button" class="btn btn-danger" style="position:relative; left:50px;">Read More</button>
+       </div>
+     </div>
+       </div>
+
+       <div class="right col-lg-4">
+<div class="card" style="width: 18rem; background-color:black;">
+  <div class="card-body">
+      <h4 class="card-title" style="color:#B88600;">New</h4>
+    <h5 class="card-title" style="color:white;">Hydrogen VS Electric Cars</h5>
+    <p class="card-text">  Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+</div>
+<div class="card border-light" style="width: 18rem; background-color:black;">
+  <div class="card-body">
+    <h5 class="card-title" style="color:white;">The Downsides of AI Artistry</h5>
+    <p class="card-text">What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+</div>
+<div class="card" style="width: 18rem; background-color:black;">
+  <div class="card-body">
+    <h5 class="card-title" style="color:white;">Is VC Funding Drying Up?</h5>
+    <p class="card-text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+</div>
+      </div>
+
+
+       </div>
+     </div>
+
+   </section>
+
+<section id="closing">
+  <div class="row">
+  <div class="card mb-3 col-lg-4 col-sm-12" style="max-width: 540px;">
+ <div class="row g-0">
+   <div class="col-md-4">
+     <img src="assets/images/image-retro-pcs.jpg" class="img-fluid rounded-start" alt="...">
+   </div>
+   <div class="col-md-8">
+     <div class="card-body">
+       <h3 class="card-title" style="color:grey;">01</h3>
+       <h5 class="card-title">  Reviving Retro PCs</h5>
+       <p class="card-text">What happens when old PCs are given modern upgrades?</p>
+     </div>
+   </div>
+ </div>
+</div>
+<div class="card mb-3 col-lg-4 col-sm-12" style="max-width: 540px;">
+<div class="row g-0">
+ <div class="col-md-4">
+   <img src="assets/images/image-top-laptops.jpg" class="img-fluid rounded-start" alt="...">
+ </div>
+ <div class="col-md-8">
+   <div class="card-body">
+     <h3 class="card-title" style="color:grey;">02</h3>
+     <h5 class="card-title">    Top 10 Laptops of 2022</h5>
+     <p class="card-text">Our best picks for various needs and budgets.</p>
+   </div>
+ </div>
+</div>
+</div>
+<div class="card mb-3 col-lg-4 col-sm-12" style="max-width: 540px;">
+<div class="row g-0">
+ <div class="col-md-4">
+   <img src="assets/images/image-gaming-growth.jpg" class="img-fluid rounded-start" alt="...">
+ </div>
+ <div class="col-md-8">
+   <div class="card-body">
+     <h3 class="card-title" style="color:grey;">03</h3>
+     <h5 class="card-title">  The Growth of Gaming</h5>
+     <p class="card-text">How the pandemic has sparked fresh opportunities.</p>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+  <div class="attribution">
+
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Anastasios Sampanis</a>.
+  </div>
+</body>
+</html>
